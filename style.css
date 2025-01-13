@@ -1,0 +1,40 @@
+body{
+    background-color: beige;
+}
+h1{
+   box-sizing:border-box;
+   width: 300px;
+   height: 40px;
+   margin: auto;/*area surronding the area*/
+   text-align: center;
+}
+* {
+    border: 2px solid red;
+}
+
+ul{
+    font-size: 20px;
+}
+
+img{/*adding this in will overwite the default dimesnions of the html declared size*/
+    display:block;
+    height: 500px;
+    width: 500px;
+    margin:auto;
+}/*wasn't working before because img was a inline element */
+
+li{
+    margin: 10px;
+    font-size: 30px;
+}
+.desc{
+    text-align: center;
+    font-size: 40px;
+}
+.subheader{
+    text-align: center;
+}
+
+.recipes{
+    text-align: center;
+}
